@@ -209,7 +209,7 @@ The following are useful future extensions but are **not part of this release**:
 - rolling/counterfactual decision layers;
 - statistical inference for attribution estimates.
 
-The public release is intentionally smaller than the development roadmap so every advertised feature is present, tested and interview-defensible.
+The public release is intentionally smaller than the development roadmap so every advertised feature is present, tested and defensible.
 
 ## Disclaimer
 
