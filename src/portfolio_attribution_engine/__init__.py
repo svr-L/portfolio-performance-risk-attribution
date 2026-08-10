@@ -1,0 +1,60 @@
+"""Portfolio Performance & Risk Attribution Engine."""
+
+from .core import (
+    PortfolioAttributionEngine,
+    aggregate_attribution_by_level,
+    align_returns,
+    brinson_multi_period,
+    brinson_multi_period_reference,
+    brinson_single_period,
+    carino_link,
+    compound_returns,
+    compound_spread,
+    expected_shortfall_attribution,
+    expected_shortfall_tail_weights,
+    factor_regression_attribution,
+    geometric_asset_linking,
+    max_drawdown_attribution,
+    normalize_probabilities,
+    period_end_weights,
+    period_start_weights,
+    prices_to_returns,
+    returns_coverage,
+    single_period_asset_attribution,
+    stress_period_attribution,
+    tracking_error_attribution,
+    volatility_attribution,
+)
+from .adapters import scenario_expected_shortfall
+from .quality import release_gate, validate_inputs
+
+__all__ = [
+    "PortfolioAttributionEngine",
+    "aggregate_attribution_by_level",
+    "align_returns",
+    "brinson_multi_period",
+    "brinson_multi_period_reference",
+    "brinson_single_period",
+    "carino_link",
+    "compound_returns",
+    "compound_spread",
+    "expected_shortfall_attribution",
+    "expected_shortfall_tail_weights",
+    "factor_regression_attribution",
+    "geometric_asset_linking",
+    "max_drawdown_attribution",
+    "normalize_probabilities",
+    "period_end_weights",
+    "period_start_weights",
+    "prices_to_returns",
+    "returns_coverage",
+    "single_period_asset_attribution",
+    "stress_period_attribution",
+    "tracking_error_attribution",
+    "volatility_attribution",
+    "scenario_expected_shortfall",
+    "release_gate",
+    "validate_inputs",
+]
+
+__version__ = "1.0.0"
